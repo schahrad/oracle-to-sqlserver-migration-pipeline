@@ -110,8 +110,6 @@ The source database is an Oracle XE instance running in Docker.
 
 The dataset used in this project is based on the official Oracle HR Sample Schema, which provides a realistic but safe schema for public migration experiments and technical demonstrations.
 
-
-![Oracle Docker container running](screenshots/docker-oracle-container-running.png)
 ## Source Environment
 
 The Oracle source database runs in Docker to keep the setup reproducible and isolated.
