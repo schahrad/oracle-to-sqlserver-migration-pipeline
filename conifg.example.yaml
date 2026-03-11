@@ -1,0 +1,16 @@
+oracle:
+  user: "demo_user"
+  password: "demo_password"
+  dsn: "oracle-host:1521/ORCLPDB1"
+
+mssql:
+  conn_str: "DRIVER={ODBC Driver 17 for SQL Server};SERVER=SQLSERVER_HOST\\SQLEXPRESS;DATABASE=DemoDatabase;Trusted_Connection=yes;TrustServerCertificate=yes;"
+
+options:
+  schema: "DEMO_SCHEMA"
+  batch_size: 5000
+  clear_before_load: true
+  validate_row_counts: true
+  stop_on_count_mismatch: true
+  include_tables: []
+    
