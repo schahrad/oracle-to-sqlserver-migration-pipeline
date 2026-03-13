@@ -1,6 +1,6 @@
 # Oracle to SQL Server Migration Pipeline
 
-A practical portfolio project demonstrating a reproducible migration workflow from **Oracle Database XE** to **Microsoft SQL Server** using **SQL Server Migration Assistant (SSMA)** and **Python-based validation and migration support**.
+A small, demo project demonstrating a reproducible migration workflow from **Oracle Database XE** to **Microsoft SQL Server** using **SQL Server Migration Assistant (SSMA)** and **Python-based validation and migration support**.
 
 ---
 ## Overview
@@ -14,7 +14,7 @@ This project explores a hands-on database migration scenario from **Oracle** to 
 
 To keep the repository safe, reproducible, and suitable for public sharing, the source system is based on the **official Oracle HR sample schema** rather than real business data.
 
-This repository is designed as a **technical portfolio project** that demonstrates migration understanding, tooling familiarity, and structured documentation of a realistic Oracle-to-MSSQL workflow.
+This repository is designed as a **technical demo project** that demonstrates migration understanding, tooling familiarity, and structured documentation of a realistic Oracle-to-MSSQL workflow.
 
 The screenshot below shows the Oracle HR sample schema in SSMA and the synchronized SQL Server target schema.
 
@@ -190,19 +190,14 @@ At the current stage, this project successfully demonstrates:
 - safe, reproducible public demo structure
 - use of example configuration in the public repository instead of real local credentials
 
-This repository should be understood as a **migration prototype / portfolio project**, not as a full enterprise-grade migration framework.
+This repository should be understood as a **migration prototype / demo project**, not as a full enterprise-grade migration framework.
 
 
 ---
 
-##  out of scope for the current project phase:
+##  Scope note:
 
-- PL/SQL functions
-- stored procedures
-- packages
-- triggers
-
-This keeps the project scope realistic and technically honest.
+This demo focuses on schema and data migration for tables (including keys and indexes). Coverage for Oracle programmable objects (PL/SQL procedures/functions/packages/triggers) is planned for Phase 2.
 
 
 ---
